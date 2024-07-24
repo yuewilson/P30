@@ -22,6 +22,18 @@ const playAudio = (x) => {
 }
 
 /**
+ * 限制单词长度，过长则缩小字体
+ */
+const limitWordLength = () => {
+    const wordElements = document.querySelectorAll('.word');
+    wordElements.forEach(wordElement => {
+        if (wordElement.innerText.length > 8) { // 假设超过10个字符为过长
+            wordElement.style.fontSize = '1em'; // 缩小字体
+        }
+    });
+};
+
+/**
  * 更新页面显示
  * @param {object} data 数据，即目录config/下json文件中的数据 
  */
@@ -55,7 +67,9 @@ const updateDisplay = (data) => {
             <audio controls id="music${word.id}" preload="none" src="http://dict.youdao.com/dictvoice?type=0&audio=${word.word}" hidden></audio>`;
         wordsEle.appendChild(li);
     });
+    limitWordLength();
 }
+
 
 // const style = document.createElement('style');
 // style.innerHTML = `
