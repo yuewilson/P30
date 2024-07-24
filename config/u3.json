@@ -1,0 +1,25 @@
+{
+  "title": "Python单词汇总",
+  "words": [
+    {
+      "id": 1,
+      "word": "if",
+      "translation": "如果",
+      "phonetic": "/ɪf/",
+      "usage": "if xbang.ultra() < 20:\n  xbang.motor(5, 1)",
+      "explain": "实现一组条件判断",
+      "imgurl": "if.png"
+    },
+    {
+      "id": 2,
+      "word": "ultrasonic",
+      "translation": "超声波",
+      "phonetic": "/ˌʌltrəˈsɑːnɪk/",
+      "usage": "xbang.ultra()",
+      "explain": "使用超声波传感器检测距离",
+      "imgurl": "ultrasonic.png"
+    }
+  ]
+}
+
+

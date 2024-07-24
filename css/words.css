@@ -1,0 +1,179 @@
+body {
+    background-color: #fff;
+}
+
+#word-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: calc(100% - 85px);
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+#word-ul::-webkit-scrollbar {
+    display: none;
+}
+
+#word-ul li {
+    border-bottom: 1px solid #e8e8e8;
+    /* padding: 10px 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    white-space: normal;
+    /* padding:0 40px; */
+}
+
+#word-ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+#word-ul li .row1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+#word-ul li .row1 .column2 {
+    padding-left: 48px;
+    padding-top: 8px;
+}
+
+#word-ul.word {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 120px;
+}
+
+#word-ul.translation {
+    color: #777;
+    margin-right: 10px;
+    width: 120px;
+}
+
+#word-ul.phonetic {
+    font-style: italic;
+    margin-right: 10px;
+    width: 120px;
+}
+
+#word-ul.usage {
+    margin-right: 10px;
+    width: 200px;
+}
+
+#word-ul.explain {
+    margin-right: 10px;
+    width: 300px;
+}
+
+#word-ul button {
+    background-color: #fff;
+    background-image: url("../img/audio-btn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 35px
+}
+
+#word-ul audio {
+    width: 100%;
+}
+
+.content ul li {
+    list-style: none;
+    /* margin: 10px 0; */
+    margin: 40px;
+    padding-bottom: 40px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    background-color: #ffffff;
+    font-size: 1.2em;
+}
+
+.content ul li .word {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-image: url("../img/word-bg.png");
+    background-position: bottom;
+
+}
+
+.content ul li .translation,
+.content ul li .phonetic,
+.content ul li .usage,
+.content ul li .explain {
+    display: block;
+    margin-top: 16px;
+    font-size: 1em;
+    color: #666;
+}
+
+.content ul li .translation {
+    margin-top: 0;
+}
+
+.content ul li button {
+    margin-top: 24px;
+    /* padding: 5px 10px; */
+    font-size: 1em;
+    color: #fff;
+    /* background-color: #007bff; */
+    border: none;
+    /* border-radius: 3px; */
+    cursor: pointer;
+}
+
+/* .content ul li button:hover {
+    background-color: #0056b3;
+} */
+
+.content ul li audio {
+    display: none;
+}
+
+.content ul li img {
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 10px; */
+    min-width: 142px;
+}
+
+.content h1 {
+    border-bottom: 1px solid #f4f5f9;
+    margin: 0;
+    padding: 21px 0;
+}
+
+@media screen and (max-width: 768px) {
+    #word-ul li {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #word-ul.word,
+    #word-ul.translation,
+    #word-ul.phonetic,
+    #word-ul.usage,
+    #word-ul.explain {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    /* #word-ul button {
+        width: 100%;
+        margin-top: 24px;
+    } */
+}
+
+

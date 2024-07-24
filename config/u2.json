@@ -1,0 +1,36 @@
+{
+  "title": "Python单词汇总",
+  "words": [
+    {
+      "id": 1,
+      "word": "while",
+      "translation": "当...的时候",
+      "phonetic": "/waɪl/",
+      "usage": "while True:\n  zyb_box.motor('A', 10, 0)",
+      "explain": "实现让程序无限循环",
+      "imgurl": "while.png"
+    },
+    {
+      "id": 2,
+      "word": "true",
+      "translation": "真实的",
+      "phonetic": "/truː/",
+      "usage": "while True:\n  zyb_box.motor('A', 10, 0)",
+      "explain": "实现让程序无限循环",
+      "imgurl": "true.png"
+    },
+    {
+      "id": 3,
+      "word": "speak",
+      "translation": "讲话, 交流",
+      "phonetic": "/spiːk/",
+      "usage": "xbang.speak('红灯闪烁, 5')",
+      "explain": "用指定颜色发出指定次数",
+      "imgurl": "speak.png"
+    }
+  ]
+}
+
+
+
+

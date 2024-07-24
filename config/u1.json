@@ -1,0 +1,53 @@
+{
+  "title": "Python单词汇总",
+  "words": [
+    {
+      "id": 1,
+      "word": "play",
+      "translation": "玩, 玩耍",
+      "phonetic": "/pleɪ/",
+      "usage": "xbang.playbgm('1.mp3')",
+      "explain": "播放指定背景音乐",
+      "imgurl": "play.png"
+    },
+    {
+      "id": 2,
+      "word": "background",
+      "translation": "背景",
+      "phonetic": "/ˈbækɡraʊnd/",
+      "usage": "xbang.playbgm('1.mp3')",
+      "explain": "播放指定背景音乐",
+      "imgurl": "background.png"
+    },
+    {
+      "id": 3,
+      "word": "music",
+      "translation": "音乐",
+      "phonetic": "/ˈmjuːzɪk/",
+      "usage": "xbang.playbgm('1.mp3')",
+      "explain": "播放指定背景音乐",
+      "imgurl": "music.png"
+    },
+    {
+      "id": 4,
+      "word": "time",
+      "translation": "时间",
+      "phonetic": "/taɪm/",
+      "usage": "time.sleep(2)",
+      "explain": "实现让程序等待指定秒数",
+      "imgurl": "time.png"
+    },
+    {
+      "id": 5,
+      "word": "sleep",
+      "translation": "睡, 睡觉",
+      "phonetic": "/sliːp/",
+      "usage": "time.sleep(2)",
+      "explain": "实现让程序等待指定秒数",
+      "imgurl": "sleep.png"
+    }
+  ]
+}
+
+
+

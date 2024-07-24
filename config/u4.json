@@ -1,0 +1,33 @@
+{
+  "title": "Python单词汇总",
+  "words": [
+    {
+      "id": 1,
+      "word": "show",
+      "translation": "显示, 显现",
+      "phonetic": "/ʃoʊ/",
+      "usage": "zyb_ai.show('teacher.png')",
+      "explain": "显示一张图片",
+      "imgurl": "show.png"
+    },
+    {
+      "id": 2,
+      "word": "recognition",
+      "translation": "认知, 识别",
+      "phonetic": "/ˌrekəɡˈnɪʃ(ə)n/",
+      "usage": "zyb_ai.recog()",
+      "explain": "识别物体的名称并给出置信度",
+      "imgurl": "recognition.png"
+    },
+    {
+      "id": 3,
+      "word": "add",
+      "translation": "添加",
+      "phonetic": "/æd/",
+      "usage": "zyb_ai.add('黄', 1)",
+      "explain": "在人脸识别库中添加新的条目并指定其大小",
+      "imgurl": "add.png"
+    }
+  ]
+}
+
